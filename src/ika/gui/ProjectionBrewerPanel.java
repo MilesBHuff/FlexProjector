@@ -1437,7 +1437,7 @@ public class ProjectionBrewerPanel extends javax.swing.JPanel {
 
         optionsPopupMenu.setLightWeightPopupEnabled(false);
 
-        resetMenuItem.setText("Reset to ProjectionÉ");
+        resetMenuItem.setText("Reset to Projectionï¿½");
         resetMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 resetMenuItemActionPerformed(evt);
@@ -1446,7 +1446,7 @@ public class ProjectionBrewerPanel extends javax.swing.JPanel {
         optionsPopupMenu.add(resetMenuItem);
         optionsPopupMenu.add(jSeparator1);
 
-        polesAndEquatorMenuItem.setText("Poles and EquatorÉ");
+        polesAndEquatorMenuItem.setText("Poles and Equatorï¿½");
         polesAndEquatorMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 polesAndEquatorMenuItemActionPerformed(evt);
@@ -1454,7 +1454,7 @@ public class ProjectionBrewerPanel extends javax.swing.JPanel {
         });
         optionsPopupMenu.add(polesAndEquatorMenuItem);
 
-        eliminateShapeDistortionAtOriginMenuItem.setText("Eliminate Shape Distortion at OriginÉ");
+        eliminateShapeDistortionAtOriginMenuItem.setText("Eliminate Shape Distortion at Originï¿½");
         eliminateShapeDistortionAtOriginMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eliminateShapeDistortionAtOriginMenuItemActionPerformed(evt);
@@ -2225,15 +2225,15 @@ public class ProjectionBrewerPanel extends javax.swing.JPanel {
             }
         });
 
-        org.jdesktop.layout.GroupLayout mixerMap1Layout = new org.jdesktop.layout.GroupLayout(mixerMap1);
+        javax.swing.GroupLayout mixerMap1Layout = new javax.swing.GroupLayout(mixerMap1);
         mixerMap1.setLayout(mixerMap1Layout);
         mixerMap1Layout.setHorizontalGroup(
-            mixerMap1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 821, Short.MAX_VALUE)
+            mixerMap1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 821, Short.MAX_VALUE)
         );
         mixerMap1Layout.setVerticalGroup(
-            mixerMap1Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 223, Short.MAX_VALUE)
+            mixerMap1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 223, Short.MAX_VALUE)
         );
 
         mixerMap1.setZoomWithMouseWheel(false);
@@ -2268,15 +2268,15 @@ public class ProjectionBrewerPanel extends javax.swing.JPanel {
             }
         });
 
-        org.jdesktop.layout.GroupLayout mixerMap2Layout = new org.jdesktop.layout.GroupLayout(mixerMap2);
+        javax.swing.GroupLayout mixerMap2Layout = new javax.swing.GroupLayout(mixerMap2);
         mixerMap2.setLayout(mixerMap2Layout);
         mixerMap2Layout.setHorizontalGroup(
-            mixerMap2Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 821, Short.MAX_VALUE)
+            mixerMap2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 821, Short.MAX_VALUE)
         );
         mixerMap2Layout.setVerticalGroup(
-            mixerMap2Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 223, Short.MAX_VALUE)
+            mixerMap2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 223, Short.MAX_VALUE)
         );
 
         mixerMap2.setZoomWithMouseWheel(false);
@@ -3078,7 +3078,7 @@ public class ProjectionBrewerPanel extends javax.swing.JPanel {
         gridBagConstraints.insets = new java.awt.Insets(20, 0, 3, 0);
         displayPanel.add(showAcceptableAreaCheckBox, gridBagConstraints);
 
-        acceptableAreaOptionsButton.setText("Acceptable Area OptionsÉ");
+        acceptableAreaOptionsButton.setText("Acceptable Area Optionsï¿½");
         acceptableAreaOptionsButton.setToolTipText("Change the acceptable distortion.");
         acceptableAreaOptionsButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
